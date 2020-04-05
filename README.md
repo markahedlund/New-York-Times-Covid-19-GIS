@@ -1,5 +1,5 @@
 # New York Times Covid-19 GIS
- New York Times Covid-19 tracking data for the US converted into a point feature class that can be "time enabled".
+ New York Times Covid-19 tracking data for the US converted into a GIS shapefile, point feature class, that can be "time enabled".
  
  The original data can be found here: https://github.com/nytimes/covid-19-data
 
