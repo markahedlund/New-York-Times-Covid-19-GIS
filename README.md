@@ -7,12 +7,12 @@
  I wrote a python script to convert each point into a point feature with a time field. The points are derived from centroids of US Census 
  Tigerline county shapes. 
  
- Geography: New York City data is combined for all five boroughs by NYT. To map it I used the centriod of the New York City "place" 
+ Geography: New York City data is combined for all five boroughs by NYT. To map it, I used the centriod of the New York City "place" 
  Tigerline shape. Kansas City is reported seperately from the counties that the city spans. County centriods were assigned county numbers
  and Kansas City data was assigned to the centroid of the Kansas City "place" Tigerline shape. 
  
  Many entries in the data set are not assigned to any county. These were not mapped. Each of these skipped entires can be found in the 
- NYT-Covid-19_not_mapped.txt file. 
+ NYT-Covid-19_not_mapped.txt file. That file also contains entries for New York and Kansas City that were mapped as descibed above.
  
  The PreviousDC field are the number of cases for that point on the previous date. The PreviousWC field are the number of cases for that 
  point seven days previous. The PreviousDD and PreviousWD are the same with deaths. 
