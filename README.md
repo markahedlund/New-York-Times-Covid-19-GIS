@@ -21,3 +21,6 @@
  might give some approximation of the active case number. 
  
  I can update this as long as the New York Times continues to update their data, if anyone is interested.
+
+ The script I used to convert the data is above as convertGit.py. This script gets county center locations and the field layout for 
+ output from the shapefile in template.zip, also above.
