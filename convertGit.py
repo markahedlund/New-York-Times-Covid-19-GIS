@@ -13,7 +13,7 @@ inputCSV = "InputFile.csv"
 templateName = "Template"
 
 dataDir = "Full path to incoming data directory including the trailing /"
-errorDir = "Full path to the folder where you want messages/errors written"
+errorDir = "Full path to the folder where you want messages/errors written including the trailing /"
 outputDir = "Full path to the folder or .gdb where you want the new feature class including the last /"
 
 template = outputDir + templateName
