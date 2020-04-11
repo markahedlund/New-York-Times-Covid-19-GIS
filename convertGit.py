@@ -1,9 +1,9 @@
 
-#This converts CSV files from the New York Times Covid-19 tracking repository and turns them into ArcGIS shapefiles or
-#features in a geodatabase. This script requires a template point feature class with the centers of all the counties
-#you want to map. It is included as a zip file on this repository as template.zip. The template must be stored in the
-#same folder or geodatabase that the output will be written to, or you could change the script. The three file names
-# and file paths must be added to the script below. Paths have to include the trailing /.
+#This converts CSV files from the New York Times Covid-19 tracking repository into ArcGIS shapefiles or features in a 
+#geodatabase. This script requires a template point feature class with the centers of all the counties you want to map. 
+#It is included as a zip file on this repository as template.zip. The template must be stored in the same folder or 
+#geodatabase that the output will be written to, or you could change the script. The three file names and file paths 
+#must be added to the script below. Paths have to include the trailing /.
 
 import arcpy
 arcpy.env.overwriteOutput = True
