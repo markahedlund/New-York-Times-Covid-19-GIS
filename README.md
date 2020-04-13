@@ -4,7 +4,7 @@
  The original data can be found here: https://github.com/nytimes/covid-19-data
 
  The data from the New York Times is distributed as a CSV file with each row containing Covid-19 case information about a county/date. 
- I wrote a python script to convert each point into a point feature with a time field. The points are derived from centroids of US Census 
+ I wrote a python script to convert each row into a point feature with a time field. The points are derived from centroids of US Census 
  Tigerline county shapes. 
  
  Geography: New York City data is combined for all five boroughs by NYT. To map it, I used the centriod of the New York City "place" 
