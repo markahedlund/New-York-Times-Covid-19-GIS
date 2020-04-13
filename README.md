@@ -24,3 +24,5 @@
 
  The script I used to convert the data is above as convertGit.py. This script gets county center locations and the field layout for 
  output from the shapefile in template.zip, also above.
+ 
+ I've been changing the script to calculate some new fields. I'll post the updated script soon.
