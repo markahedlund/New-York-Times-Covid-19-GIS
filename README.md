@@ -18,11 +18,10 @@
  point seven days previous. The PreviousDD and PreviousWD are the same with deaths. 
  
  Cases are automatically added to the Recovered field when they are 21 days old. Subtracting this field and Deaths from cumulative cases
- might give some approximation of the active case number. 
+ might give some approximation of the active case number. I've added fields for percent of population, and percent increase as well. 
  
  I can update this as long as the New York Times continues to update their data, if anyone is interested.
 
- The script I used to convert the data is above as convertGit.py. This script gets county center locations and the field layout for 
+ The script I used to convert the data is above as convertNYT.py. This script gets county center locations and the field layout for 
  output from the shapefile in template.zip, also above.
  
- I've been changing the script to calculate some new fields. I'll post the updated script soon.
